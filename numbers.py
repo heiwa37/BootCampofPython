@@ -21,9 +21,3 @@
 while True:
     a = int(input("Please enter the number: "))
     if(a%4==0 or a%100==0 or a%400==0):
-        print(True)
-        print("It is a leap year")
-        break
-    else:
-        print(False)
-        print("it is not  a leap year")
